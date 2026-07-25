@@ -62,6 +62,11 @@ temp/
 # Claude Code
 .claude/
 *.jsonl
+settings.json
+stats-cache.json
+
+# venv artifacts
+pyvenv.cfg
 
 # OS
 Thumbs.db
