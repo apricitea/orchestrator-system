@@ -1,0 +1,217 @@
+{
+  "numStartups": 41,
+  "hasSeenTasksHint": true,
+  "tipsHistory": {
+    "new-user-warmup": 7,
+    "plan-mode-for-complex-tasks": 38,
+    "default-permission-mode-config": 32,
+    "terminal-setup": 32,
+    "memory-command": 31,
+    "theme-command": 41,
+    "colorterm-truecolor": 31,
+    "status-line": 26,
+    "stickers-command": 22,
+    "prompt-queue": 7,
+    "enter-to-steer-in-relatime": 22,
+    "todo-list": 22,
+    "install-github-app": 33,
+    "install-slack-app": 34,
+    "drag-and-drop-images": 34,
+    "double-esc-code-restore": 34,
+    "continue": 35,
+    "shift-tab": 35,
+    "image-paste": 23,
+    "ultrathink-keyword": 35,
+    "web-app": 33,
+    "mobile-app": 33,
+    "custom-agents": 37,
+    "frontend-design-plugin": 38,
+    "permissions": 32,
+    "rename-conversation": 28,
+    "custom-commands": 28
+  },
+  "promptQueueUseCount": 169,
+  "showExpandedTodos": true,
+  "cachedStatsigGates": {
+    "tengu_prompt_suggestion": false,
+    "tengu_session_memory": false
+  },
+  "cachedGrowthBookFeatures": {
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu_mcp_tool_search": false,
+    "tengu_scratch": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": true,
+    "tengu_event_sampling_config": {},
+    "tengu_tool_pear": false,
+    "tengu_thinkback": false,
+    "tengu_sumi": false
+  },
+  "userID": "21783ebc2534358bcaf1250efccf2680f1b2473801d6bd2498cfcb3e58a69523",
+  "firstStartTime": "2026-01-15T07:41:43.563Z",
+  "sonnet45MigrationComplete": true,
+  "opus45MigrationComplete": true,
+  "opusProMigrationComplete": true,
+  "thinkingMigrationComplete": true,
+  "cachedChromeExtensionInstalled": false,
+  "changelogLastFetched": 1768462904043,
+  "hasCompletedOnboarding": true,
+  "mcpServers": {
+    "web-reader": {
+      "type": "http",
+      "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+      "headers": {
+        "Authorization": "Bearer e5d1c5f065b64e6ebe0c42b6cfe1dcd8.QRb5vBLuzdNcfywi"
+      }
+    },
+    "zai-mcp-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@z_ai/mcp-server"
+      ],
+      "env": {
+        "Z_AI_MODE": "ZAI",
+        "Z_AI_API_KEY": "e5d1c5f065b64e6ebe0c42b6cfe1dcd8.QRb5vBLuzdNcfywi"
+      }
+    },
+    "web-search-prime": {
+      "type": "http",
+      "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+      "headers": {
+        "Authorization": "Bearer e5d1c5f065b64e6ebe0c42b6cfe1dcd8.QRb5vBLuzdNcfywi"
+      }
+    },
+    "zread": {
+      "type": "http",
+      "url": "https://api.z.ai/api/mcp/zread/mcp",
+      "headers": {
+        "Authorization": "Bearer e5d1c5f065b64e6ebe0c42b6cfe1dcd8.QRb5vBLuzdNcfywi"
+      }
+    }
+  },
+  "bypassPermissionsModeAccepted": true,
+  "lastReleaseNotesSeen": "2.1.7",
+  "projects": {
+    "/home/ubuntu": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 15712,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "8c401a2d-7321-4fcc-bd35-3ed12f207474",
+      "hasCompletedProjectOnboarding": true
+    },
+    "/home/ubuntu/projects/laptop-recommendation": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "filterSidebar.tsx",
+        "laptopCard.tsx",
+        "page.tsx",
+        "globals.css",
+        "package.json"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 1.0278659999999997,
+      "lastAPIDuration": 4939651,
+      "lastAPIDurationWithoutRetries": 4931874,
+      "lastToolDuration": 3156862,
+      "lastDuration": 67130239,
+      "lastLinesAdded": 639,
+      "lastLinesRemoved": 19,
+      "lastTotalInputTokens": 197950,
+      "lastTotalOutputTokens": 18172,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 2577828,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 125982,
+          "outputTokens": 8789,
+          "cacheReadInputTokens": 1360292,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.3059561999999999
+        },
+        "claude-sonnet-4-5-20250929": {
+          "inputTokens": 71968,
+          "outputTokens": 9383,
+          "cacheReadInputTokens": 1217536,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.7219097999999998
+        }
+      },
+      "lastSessionId": "0aad04ed-bd23-419a-bbaa-0b98e8876527",
+      "exampleFilesGeneratedAt": 1768815634839
+    }
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "lastPlanModeUse": 1768464062329,
+  "skillUsage": {
+    "init": {
+      "usageCount": 1,
+      "lastUsedAt": 1768464071409
+    },
+    "glm-plan-usage:usage-query": {
+      "usageCount": 2,
+      "lastUsedAt": 1768494162492
+    },
+    "glm-plan-usage:usage-query-skill": {
+      "usageCount": 1,
+      "lastUsedAt": 1768494178845
+    }
+  },
+  "githubRepoPaths": {
+    "thecurators/laptop-recommendation": [
+      "/home/ubuntu/projects/laptop-recommendation"
+    ]
+  }
+}
