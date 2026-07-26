@@ -1,0 +1,18 @@
+# Orchestrator policy configuration
+# Copy to policy.conf and adjust.
+# For production: set this file immutable after configuring (chattr +i on Linux).
+
+[permissions]
+# Maximum Claude turns per task
+max_turns = 20
+
+[guardrails]
+# Comma-separated commands the agent must never run
+blocked_commands = systemctl,chattr,mkfs,dd,shutdown,reboot
+
+# Comma-separated paths the agent must never write to
+blocked_paths =
+
+[behavior]
+# Allow orchestrator to run alongside an active user session if usage is below this %
+concurrent_session_pct = 60
