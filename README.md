@@ -63,6 +63,20 @@ The orchestrator uses a PostgreSQL database with the following tables (in the `o
 
 ---
 
+## Known gap
+
+`utils/`, `config/`, and `worker/telegram/` are imported throughout this
+codebase (including `main.py`) but aren't checked into this repository —
+they exist only on the deployment host and were never pushed here. As a
+result, cloning this repo fresh and running `python main.py` currently
+fails with `ModuleNotFoundError` before anything else runs. Flagging this
+directly rather than leaving it to be discovered: the architecture,
+database schema, and per-agent code below are real and reflect the actual
+system, but a fresh clone is not runnable end-to-end without those three
+pieces.
+
+---
+
 ## Requirements
 
 - Python 3.11+
